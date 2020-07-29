@@ -1,4 +1,3 @@
-
 variable "tf01_rg_name" {
   type = string
 }
