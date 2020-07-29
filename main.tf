@@ -8,6 +8,6 @@ resource "azurerm_resource_group" "tf01_rg" {
   location = var.tf01_rg_location
 
   tags = {
-    env   = local.dev
+    env   = var.tf01_env
   }
 }
